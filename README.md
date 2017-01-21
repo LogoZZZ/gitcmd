@@ -23,7 +23,9 @@
 #$ git config --global color.ui true //设置颜色
 #$ git config --global color.status auto //同上
 #$ git config --global color.branch auto //同上
-#$ git push origin :name //删除远程分支
+#$ git branch name //创建分支 
+#$ git branch -a //查看本地分支和远程分支
+#$ git checkout name //切换分支
 #$ git merge name //合并某分支到当前分支
 #$ git log --graph --pretty=oneline --abbrev-commit //查看当前分支合并情况
 #
