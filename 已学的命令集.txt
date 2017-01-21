@@ -15,7 +15,7 @@ $ git checkout -- filename //撤销工作区filename文件的修改 还有一种
 $ git reset HEAD +filename //撤销filename在暂存区的修改，使得文件回到工作区的修改
 $ git rm +filename //删除 filename文件
 $ ssh-keygen -t rsa -C "you@example.com"//创建ssh秘钥 用于与github之间创建安全连接  去用户文件夹下查看是否拥有了 .ssh文件夹
-$ git remote add origin git@github.com:michaelliao/learngit.git //其中 origin 是远程库 github 的库名 也可以修改成任意想要的名字
+$ git remote add origin git@github.com:xxx/learngit.git //其中 origin 是远程库 github 的库名 也可以修改成任意想要的名字
 $ git push -u origin master //第一次将库文件发送到GitHub远程库中
 $ git push origin master//将此时库文件发送到GitHub远程库中（更新）
 $ git config --global branch.autosetuprebase always //避免PULLING提交合并 （远程库）
